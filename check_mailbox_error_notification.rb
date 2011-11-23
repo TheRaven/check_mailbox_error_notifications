@@ -28,7 +28,7 @@ imap.search(["NOT", "DELETED"],"ISO-8859-1").each do |message_id|
   end
 
   
-#  imap.store(message_id, "+FLAGS", [:Deleted])
+ imap.store(message_id, "+FLAGS", [:Deleted])
 end
 imap.expunge()
 
