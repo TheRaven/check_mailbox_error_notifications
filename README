@@ -1,0 +1,3 @@
+This is a plugin for nagios that checks a given mailbox (IMAP) for specific email content.
+
+Once an error notification email is found the plugin deletes the email and returns a nagios return code of critical.
